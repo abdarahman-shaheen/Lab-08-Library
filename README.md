@@ -20,4 +20,4 @@ The GetEnumerator methods allow iterating over the items in the backpack using a
 The Pack method takes an item of type T as a parameter and adds it to the lists list.
 The Unpack method takes an index as a parameter, retrieves the item at that index from the lists list, removes it using the RemoveAt method, and returns the item.
 
-[](https://github.com/abdarahman-shaheen/Lab-08-Library/blob/master/Library.png)
+![](https://github.com/abdarahman-shaheen/Lab-08-Library/blob/master/Library.png)
