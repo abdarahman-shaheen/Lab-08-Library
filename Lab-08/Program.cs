@@ -6,16 +6,16 @@
         {
             var l1 = new Library();
        
-            l1.Add("b1", "osama", "majed", 22);
-            l1.Add("b2", "osama", "majed", 22);
+            l1.Add("Flower book", "osama", "majed", 22);
+            l1.Add("Justin baber", "osama", "majed", 22);
 
             var b1 = new Backpack<Book>();
           
-            b1.Pack(l1.Borrow("b1"));
+            b1.Pack(l1.Borrow("Flower book"));
             Console.WriteLine("book in library");
             foreach (Book book in l1)
             {
-                Console.WriteLine(book.Title);
+                Console.WriteLine($" title : {book.Title} || Author :{book.Author}");
             }
             Console.WriteLine("______________________________");
             Console.WriteLine("Book in Bag");
